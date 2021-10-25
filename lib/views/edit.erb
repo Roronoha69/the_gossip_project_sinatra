@@ -1,0 +1,14 @@
+<html>
+  <head>
+    <title> Modifier le potin </title>
+  </head>
+  <h1> Modifier le potin </h1>
+  <p>Modifier le potin n°<%= params["id"] %></p>
+  <form action='/gossips/<%= params["id"] %>/edit/' method='POST'>
+   Change ici ton blaze :  <input type='text' name='gossip_author' /><br/>
+   Modifier le potin : <input type='text' name='gossip_content' /><br/>
+   <input type='submit'/>
+  </form>
+    
+</html>
+
